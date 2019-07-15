@@ -1,0 +1,102 @@
+<! DOCTYPE HTML>
+
+<html>
+
+<head>
+    
+    <title>Slideshow</title>
+    
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+    
+   
+    
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    
+<link rel="stylesheet" href="style_3.css"> 
+
+</head>
+
+
+<body>
+
+<!--how to create a slideshow :    -->
+<div class="slideshow-container">
+  
+<!--full width images with number and caption text :   -->
+<div class="my_slides fade">
+    <div class="num_text">1 / 6</div>
+    <img src="cat.jpg" style="width:100%">
+    <div class="text">Caption One</div>
+    </div>
+    
+    <div class="my_slides fade">
+    <div class="num_text">2 / 6</div>
+    <img src="tiger.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+    </div>
+    
+    <div class="my_slides fade">
+    <div class="num_text">3 / 6</div>
+    <img src="stavropol%20krai.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+    </div>
+    
+    <div class="my_slides fade">
+    <div class="num_text">4 / 6</div>
+    <img src="slovenia1.jpg" style="width:100%">
+    <div class="text">Caption Four</div>
+    </div>
+    
+    <div class="my_slides fade">
+    <div class="num_text">5 / 6</div>
+    <img src="slovenia2.jpg" style="width:100%">
+    <div class="text">Caption Five</div>
+    </div>
+    
+    <div class="my_slides fade">
+    <div class="num_text">6 / 6</div>
+    <img src="ireland.jpg" style="width:100%">
+    <div class="text">Caption Six</div>
+    </div>
+    
+<!--    next and prevoius buttons :-->
+    <a class="prev" onclick="plus_slide(-1)">&#10094;</a>
+    <a class="next" onclick="plus_slide(1)">&#10095;</a>
+    </div>
+    <br>
+    
+<!--    the dots/circles :-->
+<div style="text-align:center"> 
+    <span class="dot" onclick="the_slide(1)"></span> 
+    <span class="dot" onclick="the_slide(2)"></span> 
+    <span class="dot" onclick="the_slide(3)"></span> 
+    <span class="dot" onclick="the_slide(4)"></span> 
+    <span class="dot" onclick="the_slide(5)"></span> 
+    <span class="dot" onclick="the_slide(6)"></span>
+    </div>
+    
+    
+    
+
+
+
+
+
+
+
+
+
+<script src="jquery-3.2.1.js"></script>
+ <script src="app1_1.js"> </script>  
+    
+     
+       
+
+
+
+
+
+
+</body>
+</html>
